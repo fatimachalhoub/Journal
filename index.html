@@ -1,0 +1,162 @@
+<!doctype html>
+<html >
+
+<head>
+    <title>Journal</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        #section {
+            border: 10px solid;
+            border-color: white;
+            background-color: white;
+        }
+
+        body {
+            margin: 0% 10%;
+            background-image: url(images/background.jpg);
+            
+        }
+
+        #header {
+            text-align: right;
+            background-color: #A8F0F0;
+        }
+
+        #h2 {
+            font-size: 14pt;
+        }
+
+        #article1 {
+            border: 4px solid;
+            border-color: #C2E9E9;
+            background-color: #E8FBFB;
+            padding: 5px;
+            margin-top: 10px;
+
+        }
+
+        #con{
+            display: flex;
+        }
+
+        #article2 {
+            border: 4px solid;
+            border-color: #C2E9E9;
+            background-color: #E8FBFB;
+            padding: 5px;
+            margin-top: 10px;
+
+        }
+
+        #left{
+            width: 25%;
+            margin-right: 10px;
+            background-color: rgb(87, 216, 216);
+            border: 5px solid darkcyan;
+            height:fit-content;
+        }
+        #right{
+            width: 75%;
+        }
+        #left h1{
+            font-size:xx-large;
+        }
+
+        #inn1 {
+            display: flex;
+        }
+
+        #inn2 {
+            display: flex;
+        }
+
+        #span1 {
+            border-color: rgb(112, 22, 112);
+            border-bottom: 2px dashed rgb(235, 6, 139);
+        }
+
+        #span2 {
+            border-color: rgb(28, 124, 71);
+            border-bottom: 2px dashed rgb(133, 133, 231);
+        }
+
+        img{
+            width: 200px;
+            height: 150px;
+        }
+
+        @media (max-width: 500px) {
+                section {
+                    width: 100%;
+                    -webkit-flex-direction: column;
+                    flex-direction: column;
+                }
+            }
+
+            *:hover{
+                background-color: rgb(219, 219, 150);
+            }
+    </style>
+</head>
+
+<body>
+    <section id="section">
+        <header id="header">
+            <h1>
+                Chalhoub's Journal
+            </h1>
+            <h2 id="h2">
+               calm, happy, greatful
+            </h2>
+        </header>
+        <article id="con">
+            <section id="left">
+                <h1>My Friends</h1>
+                <ul>
+                    <li><a href=“#Testing1”>Testing1</a></li>
+                    <li><a href=“#Testing2”>Testing3</a></li>
+                    <li><a href=“#Testing3”>Testing3</a> </li>
+                </ul>
+
+            </section>
+            <section id="right">
+                <article id="article1">
+                    <section id="inn1">
+                        <div>
+                            <h2>
+                                <span id="span1" class="border">07/02/2022:</span> New Semester
+                            </h2>
+                        </div>
+                        <div><img src="images/1.jpeg" alt="classmates" ></div>
+                    </section>
+                    <div>
+                        <p>today is the first day of the spring semester, I'm so excited to start
+                            new journey with new courses and professors.
+                        </p>
+                    </div>
+                </article>
+                <article id="article2">
+                    <section id="inn2">
+                        <div>
+                            <h2>
+                                <span id="span2">13/02/2022:</span> MY Birthday
+                            </h2>
+                        </div>
+                        <div><img src="images/2.jpeg" alt="cake"></div>
+                    </section>
+                    <div>
+                        <p> My Friends surprised me on my Birthday at the beach today <br>
+                            I'm so gratful to have them.
+                        </p>
+                    </div>
+                </article>
+            </section>
+    </section>
+    </article>
+</body>
+
+</html>
